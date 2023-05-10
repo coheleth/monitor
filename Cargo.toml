@@ -6,6 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clearscreen = "2.0.1"
+clap = { version = "4.2.7", features = ["derive"] }
 sysinfo = "0.29.0"
 termsize = "0.1"
+unicode-width = "0.1.5"
+prettytable-rs = "0.10"
